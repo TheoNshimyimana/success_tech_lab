@@ -74,25 +74,25 @@ function Contact() {
             </p>
           </div>
           <div className="text-center p-4 bg-white shadow-md rounded-lg">
-            <a href="https://wa.me/0782755830" target="blank">
+            <a href="https://wa.me/+250782755830" target="blank">
               <BsWhatsapp className="text-3xl text-blue-900 mx-auto" />
               <h2 className="text-blue-900 text-xl font-semibold mt-3">
                 Whatsapp
               </h2>
             </a>
-            <a href="https://wa.me/0782755830" target="blank">
+            <a href="https://wa.me/+250782755830" target="blank">
               <p className="text-gray-600"> Chat With Us</p>
             </a>
           </div>
           <div className="text-center p-4 bg-white shadow-md rounded-lg">
-            <a href="tel:+250 789051942">
+            <a href="tel:+250782755830">
               <IoIosCall className="text-3xl text-blue-900 mx-auto" />
               <h2 className="text-blue-900 text-xl font-semibold mt-3">
                 Call Us
               </h2>
             </a>
 
-            <a href="tel:+250 789051942" className="text-gray-600">
+            <a href="tel:+250782755830" className="text-gray-600">
               Mobile: 0782755830
             </a>
             
