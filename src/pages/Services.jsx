@@ -51,7 +51,7 @@ const Services = forwardRef((props, ref) => {
               className="flex flex-col  items-center justify-center p-6 bg-white rounded-lg shadow hover:shadow-md transition"
             >
               <>{service.icon }</>
-              <p className="mt-4 font-semibold text-blue-900 text-xl text-center">{service.title}</p>
+              <p className="mt-4  text-blue-900 text-lg text-center">{service.title}</p>
             </div>
           ))}
         </div>
@@ -61,7 +61,7 @@ const Services = forwardRef((props, ref) => {
 
       {/* Projects */}
       <main className="pl-0 py-9" id="projects">
-        <h1 className="text-2xl font-bold text-blue-800 mb-8">
+        <h1 className="text-2xl font-bold flex text-blue-800 mb-8">
         Featured Projects
         </h1>
         
