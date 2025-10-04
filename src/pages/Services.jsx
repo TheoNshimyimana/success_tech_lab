@@ -67,7 +67,7 @@ const Services = forwardRef((props, ref) => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center hover:scale-105 justify-center p-6 bg-white rounded-lg border-2 border-red-950 shadow hover:bg-green-300 cursor-pointer hover:border-red-700 transition duration-300"
+                className="flex flex-col items-center hover:scale-105 justify-center p-6 bg-white rounded-lg border-2 border-gray-400 shadow hover:bg-green-300 cursor-pointer hover:border-green-700 transition duration-300"
               >
                 <>{service.icon}</>
                 <h1 className="mt-4  text-blue-900 text-lg text-center">
