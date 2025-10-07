@@ -7,7 +7,7 @@ function ReadMore() {
     return (
       <>
         <Navbar2 />
-        <div className="pt-10">
+        <div className="p-10">
           <h1 className="text-blue-900 text-3xl md:text-4xl font-bold tracking-tight pl-10 mb-8">
             Responding to the COVID-19 Challenge
           </h1>
