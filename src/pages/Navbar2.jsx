@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../images/logo.png"; // replace with your logo
+import logo from "../images/Logo.png"; 
 
 function Navbar2() {
   const [hasShadow, setHasShadow] = useState(false);
