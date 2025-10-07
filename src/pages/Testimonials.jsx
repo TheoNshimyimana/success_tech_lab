@@ -23,7 +23,7 @@ const Testimonials = () => {
         {testimonials.map((item, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-md shadow hover:shadow-md transition"
+            className="bg-white p-6 rounded-md border-2 border-gray-200 hover:scale-105 cursor-pointer shadow hover:shadow-md transition"
           >
             <FaQuoteLeft className="text-blue-900 text-3xl mb-4 mx-auto" />
             <p className="text-gray-700 italic mb-4">{item.text}</p>
