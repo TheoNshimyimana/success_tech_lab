@@ -10,17 +10,17 @@ function Body() {
         <main className="flex flex-col md:flex-row items-center justify-between gap-10 px-6 md:px-12 py-0 bg-gradient-to-b from-slate-50 to-slate-100 bg-cover bg-center overflow-hidden">
           {/* Left Content */}
           <div className="flex-1 text-center md:text-left space-y-6 animate-fade-in pb-4">
-            <h1 className="text-blue-900 pt-7 text-center text-xl sm:text-3xl lg:text-4xl font-bold  leading-snug tracking-tight">
+            <h1 className="text-blue-800 pt-7 text-center text-xl sm:text-3xl lg:text-2xl font-bold  leading-snug tracking-tight">
               Empowering Rwanda Through Digital Skills and Innovation
             </h1>
 
-            <p className="text-slate-700 text-base sm:text-lg md:text-[17px] leading-8 text-justify max-w-2xl mx-auto md:mx-0">
+            <p className="text-slate-700 text-sm sm:text-lg md:text-[15px] leading-10 text-justify max-w-2xl mx-auto md:mx-0">
               Success Tech Lab Ltd is a Rwandan social enterprise dedicated to
               empowering young people by developing their digital skills. Our
               mission is to foster innovation and community growth through
               targeted training and technology-driven solutions. Founded in{" "}
-              <span className="font-semibold text-blue-800">2018</span> by
-              <span className="font-semibold text-blue-800">
+              <span className="font-semibold text-blue-700">2018</span> by
+              <span className="font-semibold text-blue-700">
                 {" "}
                 Tobi Tumukunde
               </span>
@@ -28,7 +28,7 @@ function Body() {
               including Apartment and Store Management Systems and E-commerce
               platforms. However, we soon realized that to fully harness the
               power of technology, individuals first needed to become
-              <span className="font-semibold text-blue-800">
+              <span className="font-semibold text-blue-700">
                 {" "}
                 digitally literate
               </span>
@@ -37,7 +37,7 @@ function Body() {
 
             <Link
               to="/details"
-              className="mt-6 inline-block px-8 py-3 bg-blue-900 text-white font-medium rounded-full shadow-md hover:bg-blue-800 hover:shadow-xl hover:scale-105 transition-all duration-300"
+              className="mt-6 inline-block text-sm px-8 py-2 bg-blue-800 text-white font-medium rounded-full shadow-md hover:bg-blue-900 hover:shadow-xl hover:scale-105 transition-all duration-300"
             >
               Learn More
             </Link>
@@ -62,7 +62,7 @@ function Body() {
         id="about"
         className="pt-8 pb-0 px-6 md:px-12 bg-gradient-to-b from-white to-slate-200"
       >
-        <h2 className="text-2xl sm:text-3xl font-bold text-blue-700 mb-4">
+        <h2 className="text-xl px-10 sm:text-2xl font-bold text-blue-700 mb-4">
           About Us
         </h2>
         <div className="w-full mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 items-center">
@@ -74,16 +74,25 @@ function Body() {
               className="w-full md:max-w-md object-contain"
             />
           </div>
-          <div>
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-              We are dedicated to empowering young people by developing their
-              digital skills. Our mission is to foster innovation and growth in
-              communities through targeted training and technology-based
-              initiatives.
+          <div className="px-4 sm:px-6 lg:px-8">
+            <p className="text-gray-700 text-base sm:text-base leading-relaxed md:leading-loose text-justify max-w-2xl mx-auto md:mx-0">
+              We are dedicated to{" "}
+              <span className="font-semibold text-blue-600">
+                empowering young people
+              </span>
+              by developing their digital skills. Our mission is to
+              <span className="font-semibold text-blue-600">
+                {" "}
+                foster innovation and growth{" "}
+              </span>
+              in communities through targeted training and
+              <span className="font-semibold text-blue-600">
+                {" "}
+                technology-based initiatives
+              </span>
+              .
             </p>
           </div>
-
-          {/* Right Side: Image */}
         </div>
       </section>
 

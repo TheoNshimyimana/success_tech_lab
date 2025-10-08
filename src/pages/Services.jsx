@@ -60,7 +60,7 @@ const Services = forwardRef((props, ref) => {
     <section className="bg-white px-8">
       <main id="services" className="pt-4" ref={ref}>
         <div>
-          <h2 className="text-2xl font-bold flex text-blue-800 mb-8">
+          <h2 className="text-2xl font-bold flex px-10 text-blue-800 mb-8">
             Services
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -73,7 +73,7 @@ const Services = forwardRef((props, ref) => {
                 <h1 className="mt-4  text-blue-900 text-lg text-center">
                   {service.title}
                 </h1>
-                <p className="mt-2 text-gray-600 leading-relaxed text-center">
+                <p className="mt-2 text-gray-600 text-sm leading-relaxed text-center">
                   {service.description}
                 </p>
                 <button className="mt-4 px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-700 transition duration-300">
@@ -86,8 +86,11 @@ const Services = forwardRef((props, ref) => {
       </main>
 
       {/* Projects */}
-      <main className="pl-0 py-9" id="projects">
-        <h1 className="text-2xl font-bold flex text-blue-800 mb-8">
+      <main className="pl-0 pt-9" id="projects">
+        <h1
+          className="text-2xl font-bold flex px-10 text-blue-800 mb-2
+        "
+        >
           Featured Projects
         </h1>
 
@@ -106,7 +109,7 @@ const Services = forwardRef((props, ref) => {
                 <h3 className="text-2xl font-semibold text-blue-900 mb-3">
                   {project.title}
                 </h3>
-                <p className="mt-2 text-gray-600 leading-relaxed text-center">
+                <p className="mt-2 text-gray-600 text-sm leading-relaxed text-center">
                   {project.description}
                 </p>
               </div>

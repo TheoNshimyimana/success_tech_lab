@@ -7,8 +7,8 @@ const impactStats = [
   
   const ImpactNumbers = () => {
     return (
-      <section className="bg-white px-6 mx-4 py-12 text-left">
-        <h2 className="text-2xl font-bold flex text-blue-800 mb-8">
+      <section className="bg-white pt-3 px-6 mx-4 text-left">
+        <h2 className="text-2xl pl-10 font-bold flex text-blue-800 ">
           Impact In Number
         </h2>
         <div className="grid grid-cols-2  md:grid-cols-4 gap-8  p-6 rounded-lg shadow hover:shadow-lg transition">

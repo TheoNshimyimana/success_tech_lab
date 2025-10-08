@@ -8,10 +8,10 @@ function ReadMore() {
       <>
         <Navbar2 />
         <div className="p-10">
-          <h1 className="text-blue-900 text-3xl md:text-4xl font-bold tracking-tight pl-10 mb-8">
+          <h1 className="text-blue-900 text-xl md:text-2xl font-bold tracking-tight  mb-8">
             Responding to the COVID-19 Challenge
           </h1>
-          <main className="flex flex-col md:flex-row items-center pl-10 justify-between mb-10 gap-10">
+          <main className="flex flex-col md:flex-row items-center  justify-between mb-10 gap-10">
             {/* Right Image */}
             <div className="flex-1 flex justify-center md:justify-end">
               <img   
@@ -23,7 +23,7 @@ function ReadMore() {
 
             {/* right contents */}
             <div className="flex-1 text-center md:text-left space-y-6">
-              <p className="text-slate-700 text-base md:text-lg leading-relaxed text-justify max-w-2xl mx-auto md:mx-0">
+              <p className="text-slate-700 text-sm md:text-base leading-relaxed text-justify w-full mx-auto md:mx-0">
                 When the COVID-19 pandemic closed schools, Success Tech Lab
                 recognized an urgent need for digital learning solutions.
                 Drawing on its expertise in business, IT, and education, the
@@ -37,7 +37,7 @@ function ReadMore() {
                 it as a practical and rewarding way to teach during lockdown.
               </p>
 
-              <p className="text-slate-700 text-base md:text-lg leading-relaxed text-justify max-w-2xl mx-auto md:mx-0">
+              <p className="text-slate-700 text-sm md:text-base leading-relaxed text-justify max-w-2xl mx-auto md:mx-0">
                 Building on this success, the{" "}
                 <span className="font-semibold text-blue-800">
                   Digital Learning Initiative (DLI)
@@ -49,7 +49,7 @@ function ReadMore() {
                 Ministry of Education.
               </p>
 
-              <p className="text-slate-700 text-base md:text-lg leading-relaxed text-justify max-w-2xl mx-auto md:mx-0">
+              <p className="text-slate-700 text-sm md:text-base leading-relaxed text-justify max-w-2xl mx-auto md:mx-0">
                 Beyond education, Success Tech Lab has introduced
                 community-focused programs such as
                 <span className="font-semibold text-blue-800">
