@@ -10,7 +10,7 @@ function Body() {
         <main className="flex flex-col md:flex-row items-center justify-between gap-10 px-6 md:px-12 py-0 bg-gradient-to-b from-slate-50 to-slate-100 bg-cover bg-center overflow-hidden">
           {/* Left Content */}
           <div className="flex-1 text-center md:text-left space-y-6 animate-fade-in pb-4">
-            <h1 className="text-blue-800 pt-7 text-center text-xl sm:text-3xl lg:text-2xl font-bold  leading-snug tracking-tight">
+            <h1 className="text-blue-800 pt-7 text-center text-2xl sm:text-4xl lg:text-3xl font-bold  leading-snug tracking-tight">
               Empowering Rwanda Through Digital Skills and Innovation
             </h1>
 

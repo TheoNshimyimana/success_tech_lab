@@ -8,7 +8,7 @@ function ReadMore() {
       <>
         <Navbar2 />
         <div className="p-10">
-          <h1 className="text-blue-900 text-xl md:text-2xl font-bold tracking-tight  mb-8">
+          <h1 className="text-blue-900 text-2xl md:text-3xl font-bold text-center tracking-tight  mb-8">
             Responding to the COVID-19 Challenge
           </h1>
           <main className="flex flex-col md:flex-row items-center  justify-between mb-10 gap-10">
